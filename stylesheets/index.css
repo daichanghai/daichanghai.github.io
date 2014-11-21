@@ -22,3 +22,27 @@ h4{font-size: 1.25em;}
 .myexport{background-color: #096254;color: #eef3f0;}
 .general{background-color: #008a75;color: #aee2d9;}
 .noKnow{background-color: #aee2d9;color: #22c3aa;}
+
+canvas{
+    background-color:#fff;
+    position:absolute;
+}
+canvas#canvas1{
+    display: none;
+    z-index:1;
+    left:50%;
+    margin-left: -225px;
+
+}
+canvas#canvas2{
+    z-index:2;
+    left:0px;
+    top:0px;
+    border:thin dashed black;
+    border-radius: 40px;
+    -moz-border-radius: 40px;
+    -o-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    display:none;
+}
+.canvasP{margin-top: -10%}
