@@ -1,0 +1,24 @@
+body{color: #fff;font-family: "微软雅黑"}
+.section {text-align: center;position: relative;}
+.circle {
+    height: 220px;
+    width: 344px;
+    /*border: 1px solid #B4E3EF;*/
+    text-align: center;
+    border-radius: 50%;
+    background-image: url("images/header.png");
+    background-repeat: no-repeat;
+    position: relative;
+    left: 50%;
+    margin-left: -172px;
+}
+.title{text-shadow: 1px 2px #22c3aa,2px 4px #aee2d9;text-align: center;font-size: 45px;}
+.subtitle{margin: 1em 0 0.25em 0;color: #aee2d9;}
+h4{font-size: 1.25em;}
+.personal{display: block;width: 400px;text-align: left;position: relative;left: 50%;margin-left: -200px;font-size:1em}
+.personal span{color: #92e583
+}
+.science span{display: inline-block;margin: 0 10px;padding: 3px 10px;border-radius: 5px}
+.myexport{background-color: #096254;color: #eef3f0;}
+.general{background-color: #008a75;color: #aee2d9;}
+.noKnow{background-color: #aee2d9;color: #22c3aa;}
