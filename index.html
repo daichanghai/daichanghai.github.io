@@ -2,11 +2,9 @@
 <html lang="zh-CN">
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>呆呆呆呆呆丶个人页面</title>
     <link rel="stylesheet" href="stylesheets/jquery.fullPage.css">
-    <style>
-        .section { text-align: center; font: 50px "Microsoft Yahei"; color: #fff;position: relative}
-    </style>
+    <link rel="stylesheet" href="index.css"/>
 </head>
 <script src="javascripts/jquery-1.8.2.min.js"></script>
 <script src="javascripts/jquery-ui-1.10.3.min.js"></script>
@@ -14,7 +12,7 @@
 <script>
     $(document).ready(function() {
         $.fn.fullpage({
-            slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
+            slidesColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90','#1bbc9b', '#4BBFC3', '#7BAABE'],
             /*anchors: ['page1', 'page2', 'page3', 'page4']*/
             anchors:[]
 
@@ -23,24 +21,50 @@
 </script>
 <body>
     <div class="section">
-        <h3>欢迎来到代昌海个人博客</h3>
+        <div>
+            <div class="circle"></div>
+            <h1 class="title">代昌海</h1>
+            <p class="subtitle">一腔热血的激情 · 一个像素的执着</p>
+            <h4>web前端开发撸码师</h4>
+            <p>13308168757@163.com</p>
+        </div>
     </div>
     <div class="section">
-        <div class="slide"><h3>第二屏的第一屏</h3></div>
-        <div class="slide"><h3>第二屏的第二屏</h3></div>
-        <div class="slide"><h3>第二屏的第三屏</h3></div>
-        <div class="slide"><h3>第二屏的第四屏</h3></div>
-        <div class="slide"><h3>第二屏的第五屏</h3></div>
-        <div class="slide"><h3>第二屏的第六屏</h3></div>
-        <div class="slide"><h3>第二屏的第七屏</h3></div>
-    </div>
-    <div class="section">
-        <h3>第三屏</h3>
-    </div>
-    <div class="section">
-        <h3>第四屏</h3>
-        <p>这是最后一屏</p>
-    </div>
+        <div class="slide">
+            <h3 class="title">个人介绍</h3>
+            <p class="personal">专注前端技术，能独立快速的完成单页面的设计、布局、交互效果及代码编写。有较强的自主应变能力和团队合作精神以及交流能力。善于快速学习并使用新技术。我相信：<span>天长在于少数，作为一个平凡人，只有靠后天的努力方能接近于梦想!</span></p>
 
+        </div>
+        <div class="slide science">
+            <h3 class="title">擅长技术</h3>
+            <p><span class="myexport">CSS</span><span class="noKnow">MySql</span></p>
+            <p><span class="myexport">JavaScript</span><span class="myexport">jQuery</span><span class="myexport">CSS3</span><span class="general">BootStrap</span></p>
+            <p><span class="myexport">photoShop</span><span class="general">CorelDRAW</span><span class="general">FLASH</span></p>
+            <p><span class="general">HTML5</span><span class="noKnow">Backbone.JS</span></p>
+        </div>
+        <div class="slide">
+            <h3 class="title">教育背景</h3>
+            <p class="subtitle">西华大学 专科(国家统招)；西南大学 本科(自考)</p>
+            <p>影视动画专业(计算机与设计相关)</p>
+            <p>2012年7月毕业</p>
+        </div>
+        <div class="slide">
+            <h3 class="title">工作经验</h3>
+            <p>web前端工程师</p>
+            <p>工作地点：成都</p>
+            <p>2014年8月至今 四川金融汇投资理财有限公司-财门小贷</p>
+            <p class="subtitle">2013年7月至2014年8月 成都森克广告有限公司(外包)</p>
+        </div>
+        <div class="slide">
+            <h3 class="title">心仪职位</h3>
+            <p>web前端工程师</p>
+            <p>工作地点：成都</p>
+            <p>为了充分休息而投入到工作中,接受偶尔加班</p>
+            <p class="subtitle">不是双休的公司请绕道……加班成风的公司请绕道……</p>
+        </div>
+    </div>
+    <div class="section">
+        <h3 class="title">此网页持续更新,敬请关注....</h3>
+    </div>
 </body>
 </html>
