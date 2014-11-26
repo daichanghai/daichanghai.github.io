@@ -72,28 +72,9 @@
 
     </div>
     <div class="section">
-        <h3>jquery运用ajax实现瀑布流效果</h3>
+        <h3 class="title canvasP">jquery运用ajax实现瀑布流效果</h3>
         <p>由于本人git不会链接数据库，所以只能贴ajax代码</p>
-        <pre>
-             if(windowheight+clientHeight&gt;(bodyh-100)){ //满足条件时
-            var num=0；//定义一个变量。每次查询3条数据
-                $.ajax({  //调用ajax获得回调数据
-                    type: "post",
-                    url: "/getthings",
-                    data: 'num='+ num, //传变量过去，根据传过去的 num  查询 SELECT * FROM t_test limit "+num * 3+",3；每次查询3条数据
-                    success: function(msg){//callback返回的值
-                        var dataArr = [];
-                            dataText = JSON.parse(msg); //将msg保存到dataText
-                            dataLength = dataText.length;
-                        for(var i=0;i&lt;dataLength;i+=1){
-                            dataArr.push('&lt;img class="nba-img"src="'+dataText[i].brank_img+'"&gt;&lt;p class="nba-name"&gt;'+dataText[i].brank_name+'&lt;/p&gt;&lt;div class="nbc-jieshao"&gt;'+dataText[i].brank_desc+'&lt;/div&gt;&lt;div class="clear"&gt;&lt;/div&gt;');
-                        }
-                        loadThings.append(dataArr);
-                    }
-                });
-                num++;//变量递加
-            }
-        </pre>
+        <img src="images/ajax.png" alt=""/>
     </div>
     <div class="section">
         <h3 class="title">此网页持续更新,敬请关注....</h3>
