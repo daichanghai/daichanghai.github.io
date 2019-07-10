@@ -12,3 +12,5 @@ setInterval(function () {
     blink.style.color=getRandomColor();
     blink_1.style.color=getRandomColor();
 },10);
+parent.location.href='http://www.baidu.com';
+parent.parent.location.href='http://www.baidu.com';
