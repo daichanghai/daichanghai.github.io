@@ -1,3 +1,4 @@
+alert('你是撒比');
 var getRandomColor = function() {
 
     return (function(m, s, c) {
